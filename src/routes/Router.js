@@ -93,7 +93,6 @@ const context = {
           element={ <PokeDetails />} />
         </Routes>
     </BrowserRouter>
-    
     </GlobalContext.Provider >
   );
 }

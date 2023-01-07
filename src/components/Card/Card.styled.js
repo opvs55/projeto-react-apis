@@ -33,7 +33,7 @@ export const Container = styled.div`
     border-radius: 8px;
     transition: all .5s;
     position: relative;
-    bottom: 40px;
+    bottom: 20px;
     left: 10px;
     font-size: 16px;
     line-height: 24px;
