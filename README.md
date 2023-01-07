@@ -4,14 +4,14 @@ https://overjoyed-rule.surge.sh/
 
 
 	- Integração de APIs
-	-	React Router
+	- React Router
 	- Design Systems
   	- Estado Global
 
 Ferramentas
 
-->React
-->React Router
-->Styled-components
-->React Context
-->Axios
+	->React
+	->React Router
+	->Styled-components
+	->React Context
+	->Axios
