@@ -16,7 +16,7 @@ background-color: #5E5E5E;
     button{
     background-color: #33A4F5;
     border-radius: 8px;
-    height: 74px;
+    height: 50px;
     width: 287px;
     padding: 4px 10px;
     align-items: center;
