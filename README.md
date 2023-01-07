@@ -6,7 +6,7 @@ https://overjoyed-rule.surge.sh/
 	- Integração de APIs
 	-	React Router
 	- Design Systems
-  - Estado Global
+  	- Estado Global
 
 Ferramentas
 
