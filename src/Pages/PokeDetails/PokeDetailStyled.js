@@ -28,7 +28,7 @@ export const Container = styled.div`
 
 export const CardDetails = styled.div`
 width: 75vw;
-height: 75vh;
+height: 80vh;
 background: url(${background});
 background-color: ${(props) => props.color};
 margin: 1em;
@@ -51,8 +51,8 @@ gap: 30px;
         gap:20px; 
     }
     .LittlePokeContainer{
-        width: 230px;
-        height: 230px;
+        width: 200px;
+        height: 200px;
         border-radius: 8px;
         border: 2px solid #FFFFFF;
         background: white;
@@ -63,8 +63,8 @@ gap: 30px;
     }
     .BigPokeContainer{
         background-color: white;
-        height: 520px;
-        width: 320px;
+        height: 470px;
+        width: 250px;
         border-radius: 12px;
         margin: 20px;
     }
@@ -76,16 +76,14 @@ gap: 30px;
     .TrirdContainer{
         display: flex;
         flex-direction: column;
-        flex-grow:1;
-        margin: 20px;
+        margin: 10px;
     }
     .MediumPokeContainer{
-        width: 292px;
-        height: 300px;
+        width: 230px;
+        height: 330px;
         background-color: #FFFFFF;
         border-radius: 8px;
-        flex-grow: 2;
-        margin: 20px;
+        margin: 5px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -96,7 +94,7 @@ gap: 30px;
         font-weight: 800;
         font-size: 2em;
         line-height: 29px;
-        margin: 20px;
+        margin: 10px;
     }
     .MediumPokeContainer > h3{
         background-color: #ECECEC;
@@ -108,7 +106,7 @@ gap: 30px;
         flex-direction: row;
         align-items: center;
         padding: 10px;
-        margin: 10px;
+        margin: 5px;
         margin-left: 20px;
         font-size: .7em;
     }
@@ -120,8 +118,8 @@ gap: 30px;
 
 
     .PokeIMG{
-        height: 282px;
-        width: 282px;
+        height: 200px;
+        width: 200px;
     }
     .Poketype{
         display: flex;
@@ -153,5 +151,41 @@ gap: 30px;
         font-size: 32px;
         line-height: 2.5em;
         color: white;
+    }
+
+
+    @media screen and (max-width: 800px){
+        width: 90vw;
+        height: 100%;
+        margin: .7em;
+        border-radius: 18.89px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+
+
+        .Container1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        }
+
+        .Container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+        
+        .pokeIMG{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 40px;
+        left: 60px;
+    }
+
+
     }
 `
