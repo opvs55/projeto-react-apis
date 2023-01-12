@@ -52,7 +52,7 @@ function Card(props) {
       </div>
       <div className="Details2">
           <img className="pokemonIMG" src={pokemon.sprites?.other["official-artwork"].front_default} alt={`${pokemon.name}`} />
-          <div>
+          <div className="containerButton">
             {location.pathname === "/" ? (
               <button className="button1" onClick={() => addToPokeDex(pokemon)}>
                 CAPTURAR!

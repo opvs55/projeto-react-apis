@@ -25,7 +25,7 @@ function Header(props) {
     switch (location.pathname) {
       case "/":
         return (
-          <>
+          <Container>
           <div className="LogoPoke">
               <img src={image} alt="pokemon"/>
           </div>
@@ -35,7 +35,7 @@ function Header(props) {
             </button>
           </div>
             
-          </>
+          </Container>
         );
       case "/pokedex":
         return (

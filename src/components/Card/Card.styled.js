@@ -94,6 +94,57 @@ export const Container = styled.div`
     margin: 4px;
   }
 
+  @media screen and (max-width: 800px){ 
+    width: 290px;
+    height: 180px;
+    
+    .containerButton{
+      height: 100px;
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    .pokemonIMG{
+      width: 100px;
+      height: 100px;
+    }
+    .button1, .button2{
+      width: 80px;
+      height: 35px;
+      font-size: .8em;
+    }
+    .name{
+      font-size:1.2em;
+    }
+
+    .Details2{
+      height: 180px;
+    }
+    .Details{
+      padding: 10px;
+    }
+
+    .button{
+      align-items: center;
+    }
+
+    .pokemonIMG {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+  }
+
+
+
+
+
+  }
+
+
 `;
 
 
@@ -108,4 +159,11 @@ export const CardType = styled.img`
   width: 90px;
   height: 30px;
   margin: 5px;
+
+
+  @media screen and (max-width: 800px) {
+    width: 70px;
+    height: 24px;
+    margin: 2.5px;
+  }
 `;

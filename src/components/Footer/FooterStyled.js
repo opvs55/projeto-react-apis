@@ -23,4 +23,11 @@ background-color: #5E5E5E;
     justify-content: center;
     font-family: 'Poppins';
     }
+
+    @media screen and (max-width: 800px){
+        button{
+            width: 200px;
+            height: 40px;
+        }
+    }
 `

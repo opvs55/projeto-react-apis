@@ -118,8 +118,8 @@ gap: 30px;
 
 
     .PokeIMG{
-        height: 282px;
-        width: 282px;
+        height: 200px;
+        width: 200px;
     }
     .Poketype{
         display: flex;
@@ -151,5 +151,41 @@ gap: 30px;
         font-size: 32px;
         line-height: 2.5em;
         color: white;
+    }
+
+
+    @media screen and (max-width: 800px){
+        width: 90vw;
+        height: 100%;
+        margin: .7em;
+        border-radius: 18.89px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+
+
+        .Container1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        }
+
+        .Container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+        
+        .pokeIMG{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 40px;
+        left: 60px;
+    }
+
+
     }
 `

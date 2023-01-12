@@ -6,6 +6,7 @@ export const Container = styled.header`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 
   button{
     background-color: #33A4F5;
@@ -29,15 +30,16 @@ export const Container = styled.header`
   }
 
   .LogoPoke{
-    flex-grow: 2;
-    display: flex;
-    justify-content: right;
-  }
-  .ButtonPokedex{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    width: 700px;
+  }
+  
+  .ButtonPokedex{
+    display: flex;
+    justify-content: end;
+    align-items: center;
   }
   .ButtonDetail{
     display: flex;
@@ -74,17 +76,25 @@ export const Container = styled.header`
     text-decoration: underline;
   }
 
-  .gif1{
-    width: 5vw;
-    height: 10vh;
-  }
-
   .LogoPokePokeDetail{
     flex-grow: 1;
     display: flex;
     justify-content: center;
   }
+  @media screen and (max-width: 800px){ 
 
+    height: 25vh;
+    
+    button{
+      height: 50px;
+      width: 200px;
+    }
+
+    .LogoPoke{
+      width: 290px;
+    }
+
+  }
 
 `;
 
