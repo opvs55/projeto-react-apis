@@ -1,6 +1,6 @@
 Poke API
 
-<a href="https://enchanting-lift.surge.sh/"> Projetp responsivo/atualizado.<a/> 
+<a href="https://enchanting-lift.surge.sh/"> Projetp responsivo/atualizado.<a/>  IPHONE 12/Pixel 5/Samsung S20 ultra/Samsumg A51/71.
  
 <img src="https://i.ibb.co/JcyZwqt/foto1projeto-Bacteria.png" alt="foto1projeto-Bacteria" border="0">
 <img src="https://i.ibb.co/BsS9H1W/hallowstore.png" alt="hallowstore" border="0">
